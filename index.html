@@ -3,10 +3,92 @@
 <head>
 <meta charset="UTF-8">
 	<title>Flogging Dolly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+	<style>
+		body {
+			font-family: Helvetica, Arial, sans-serif;
+		    background-color: #0964eb;
+		    color: white;
+			padding:0;
+			margin:0;
+			border:0;
+			height:inherit;
+			display:table;		
+			position:absolute;
+			min-height:440px;
+			width:100%;
+			height:100%;
+		}
+		
+		#footer {
+		  display:table-row;
+		  position: absolute;
+		  bottom: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 200px;
+		  border : 0;
+		  padding: 0;
+		  
+		  background-image : url("ground.png");
+		  background-size: 95px;
+		  background-repeat: repeat-x;
+		  background-position: left bottom;
+		}
+		
+		
+		p {
+			text-align: center;
+		}
+		
+		#title{
+			text-align: center;
+			display:block;
+		}
+		
+		#title img{
+			width:70%;
+			max-width:500px;
+		}
+		
+		#dolly {
+			margin-left: 5px;
+			height:50px;
+		}
+		
+		#content{
+   		    vertical-align:middle;
+			margin:10px;
+		}
+				
+		a:link{
+			color:white;
+		}
+		
+		a:visited{
+			color: LightGray;
+		}
+		
+		#twitter{
+			background: url("twitter.png") no-repeat;
+			background-size: contain;
+			padding-left:1.6em;
+		}
+		
+		
+	</style>
 </head>
 
 <body>
-	Coming Soon
+	<div id="content">
+		<span id="title"><img src="title.png" alt="Flogging Dolly"/></span>
+		<p>Coming in Q1 2015</h1>
+		<p><a id="twitter" href="https://twitter.com/FloggingDolly">@floggingdolly</a></p>
+	</div>
+
+	<div id="footer">
+		<img id="dolly" src="dolly.png" alt="Dolly the sheep"/>
+	</div>
 </body>
 
 </html> 
