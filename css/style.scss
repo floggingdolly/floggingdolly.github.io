@@ -1,3 +1,7 @@
+@import 'normalize';
+@import 'skeleton';
+
 body {
+	@extend .container;
 	background-color:blue;
 }
