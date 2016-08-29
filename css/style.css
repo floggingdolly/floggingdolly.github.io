@@ -881,11 +881,16 @@ body {
   color: white;
   text-align: center; }
 
+#summary p {
+  margin: 0; }
+
+#summary a {
+  margin: 0; }
+
 h1 img {
   width: 320px; }
 
 #html-sucks {
-  background-color: red;
   padding-bottom: 56.25%;
   height: 0;
   position: relative; }
@@ -896,6 +901,16 @@ h1 img {
   left: 0;
   width: 100%;
   height: 100%; }
+
+section {
+  margin-bottom: 8px; }
+
+@media (min-width: 550px) {
+  section:first-of-type {
+    display: flex;
+    align-items: center; } }
+#screenshots img {
+  margin-bottom: 8px; }
 
 #google_play {
   width: 200px; }
