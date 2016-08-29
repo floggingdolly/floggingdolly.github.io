@@ -3,5 +3,46 @@
 
 body {
 	@extend .container;
-	background-color:blue;
+	background-color:#0964eb;
+	color:white;
+	text-align: center;
+}
+
+#summary, #video {
+	@extend .one-half;
+	@extend .column;
+}
+
+#html-sucks{
+	background-color: red;
+	padding-bottom: 56.25%;
+	height:0;
+	position:relative;
+}
+#video iframe {
+	@extend .u-max-full-width;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+section {
+	@extend .row;
+}
+
+header {
+	@extend .row;
+}
+#screenshots img {
+	@extend .three; 
+	@extend .columns;
+}
+
+#google_play {
+	width:200px;
+}
+
+.icon {
+	width:24px;
 }
