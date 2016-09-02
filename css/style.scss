@@ -6,6 +6,7 @@ body {
 	background-color:#0964eb;
 	color:white;
 	text-align: center;
+	font-family: "Roboto", "Adobe Blank", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #summary, #video {
@@ -21,9 +22,44 @@ body {
 	margin:0;
 }
 
+h1{
+	margin-bottom: 0.5rem;
+}
+
+h2{
+	margin-bottom: 0;
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: normal;
+}
+
+header{
+	margin-bottom: 2rem;
+}
 
 h1 img {
-	width:320px;
+	width:82%;
+	image-rendering: -moz-crisp-edges;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+
+@media (min-width: 550px){
+	li{
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+	}
+}
+
+@media (min-width: 1000px){
+	li{
+		width: 30%;
+	}
 }
 
 #html-sucks{
@@ -31,6 +67,7 @@ h1 img {
 	height:0;
 	position:relative;
 }
+
 #video iframe {
 	@extend .u-max-full-width;
 	position: absolute;
@@ -40,7 +77,7 @@ h1 img {
 	height: 100%;
 }
 
-section {
+.section {
 		@extend .row;
 		margin-bottom:8px;
 }
@@ -50,19 +87,33 @@ section {
 		display:flex;
 		align-items: center;
 	}
+	h1 img {
+		width:48%;
+		max-width: 300px;
+	}
 }
 
-header {
-	@extend .row;
-}
 #screenshots img {
-	@extend .three; 
+	@extend .three;
 	@extend .columns;
 	margin-bottom: 8px;
 }
 
 #google_play {
 	width:200px;
+}
+
+#amazon{
+	height: 51px;
+	padding-bottom: 13px;
+}
+
+@media (max-width: 920px){
+	#amazon{
+		width: 174px;
+		height: auto;
+		padding-bottom: 8px;
+	}
 }
 
 .icon {

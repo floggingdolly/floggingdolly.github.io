@@ -856,8 +856,7 @@ hr {
 /* Self Clearing Goodness */
 .container:after, body:after,
 .row:after,
-section:after,
-header:after,
+.section:after,
 .u-cf {
   content: "";
   display: table;
@@ -879,7 +878,8 @@ there.
 body {
   background-color: #0964eb;
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-family: "Roboto", "Adobe Blank", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 #summary p {
   margin: 0; }
@@ -887,9 +887,33 @@ body {
 #summary a {
   margin: 0; }
 
-h1 img {
-  width: 320px; }
+h1 {
+  margin-bottom: 0.5rem; }
 
+h2 {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: normal; }
+
+header {
+  margin-bottom: 2rem; }
+
+h1 img {
+  width: 82%;
+  image-rendering: -moz-crisp-edges; }
+
+ul {
+  list-style-type: none; }
+
+@media (min-width: 550px) {
+  li {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%; } }
+@media (min-width: 1000px) {
+  li {
+    width: 30%; } }
 #html-sucks {
   padding-bottom: 56.25%;
   height: 0;
@@ -902,19 +926,32 @@ h1 img {
   width: 100%;
   height: 100%; }
 
-section {
+.section {
   margin-bottom: 8px; }
 
 @media (min-width: 550px) {
   section:first-of-type {
     display: flex;
-    align-items: center; } }
+    align-items: center; }
+
+  h1 img {
+    width: 48%;
+    max-width: 300px; } }
 #screenshots img {
   margin-bottom: 8px; }
 
 #google_play {
   width: 200px; }
 
+#amazon {
+  height: 51px;
+  padding-bottom: 13px; }
+
+@media (max-width: 920px) {
+  #amazon {
+    width: 174px;
+    height: auto;
+    padding-bottom: 8px; } }
 .icon {
   width: 24px; }
 
