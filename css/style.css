@@ -391,7 +391,7 @@ th {
   padding: 0 20px;
   box-sizing: border-box; }
 
-.column, #summary, #video,
+.column,
 .columns,
 #screenshots img {
   width: 100%;
@@ -408,17 +408,17 @@ th {
   .container, body {
     width: 80%; }
 
-  .column, #summary, #video,
+  .column,
   .columns,
   #screenshots img {
     margin-left: 4%; }
 
-  .column:first-child, #summary:first-child, #video:first-child,
+  .column:first-child,
   .columns:first-child,
   #screenshots img:first-child {
     margin-left: 0; }
 
-  .one.column, .one#summary, .one#video,
+  .one.column,
   .one.columns,
   #screenshots img.one {
     width: 4.66666666667%; }
@@ -457,82 +457,82 @@ th {
     width: 100%;
     margin-left: 0; }
 
-  .one-third.column, .one-third#summary, .one-third#video {
+  .one-third.column {
     width: 30.6666666667%; }
 
-  .two-thirds.column, .two-thirds#summary, .two-thirds#video {
+  .two-thirds.column {
     width: 65.3333333333%; }
 
-  .one-half.column, #summary, #video {
+  .one-half.column {
     width: 48%; }
 
   /* Offsets */
-  .offset-by-one.column, .offset-by-one#summary, .offset-by-one#video,
+  .offset-by-one.column,
   .offset-by-one.columns,
   #screenshots img.offset-by-one {
     margin-left: 8.66666666667%; }
 
-  .offset-by-two.column, .offset-by-two#summary, .offset-by-two#video,
+  .offset-by-two.column,
   .offset-by-two.columns,
   #screenshots img.offset-by-two {
     margin-left: 17.3333333333%; }
 
-  .offset-by-three.column, .offset-by-three#summary, .offset-by-three#video,
+  .offset-by-three.column,
   .offset-by-three.columns,
   #screenshots img.offset-by-three {
     margin-left: 26%; }
 
-  .offset-by-four.column, .offset-by-four#summary, .offset-by-four#video,
+  .offset-by-four.column,
   .offset-by-four.columns,
   #screenshots img.offset-by-four {
     margin-left: 34.6666666667%; }
 
-  .offset-by-five.column, .offset-by-five#summary, .offset-by-five#video,
+  .offset-by-five.column,
   .offset-by-five.columns,
   #screenshots img.offset-by-five {
     margin-left: 43.3333333333%; }
 
-  .offset-by-six.column, .offset-by-six#summary, .offset-by-six#video,
+  .offset-by-six.column,
   .offset-by-six.columns,
   #screenshots img.offset-by-six {
     margin-left: 52%; }
 
-  .offset-by-seven.column, .offset-by-seven#summary, .offset-by-seven#video,
+  .offset-by-seven.column,
   .offset-by-seven.columns,
   #screenshots img.offset-by-seven {
     margin-left: 60.6666666667%; }
 
-  .offset-by-eight.column, .offset-by-eight#summary, .offset-by-eight#video,
+  .offset-by-eight.column,
   .offset-by-eight.columns,
   #screenshots img.offset-by-eight {
     margin-left: 69.3333333333%; }
 
-  .offset-by-nine.column, .offset-by-nine#summary, .offset-by-nine#video,
+  .offset-by-nine.column,
   .offset-by-nine.columns,
   #screenshots img.offset-by-nine {
     margin-left: 78.0%; }
 
-  .offset-by-ten.column, .offset-by-ten#summary, .offset-by-ten#video,
+  .offset-by-ten.column,
   .offset-by-ten.columns,
   #screenshots img.offset-by-ten {
     margin-left: 86.6666666667%; }
 
-  .offset-by-eleven.column, .offset-by-eleven#summary, .offset-by-eleven#video,
+  .offset-by-eleven.column,
   .offset-by-eleven.columns,
   #screenshots img.offset-by-eleven {
     margin-left: 95.3333333333%; }
 
-  .offset-by-one-third.column, .offset-by-one-third#summary, .offset-by-one-third#video,
+  .offset-by-one-third.column,
   .offset-by-one-third.columns,
   #screenshots img.offset-by-one-third {
     margin-left: 34.6666666667%; }
 
-  .offset-by-two-thirds.column, .offset-by-two-thirds#summary, .offset-by-two-thirds#video,
+  .offset-by-two-thirds.column,
   .offset-by-two-thirds.columns,
   #screenshots img.offset-by-two-thirds {
     margin-left: 69.3333333333%; }
 
-  .offset-by-one-half.column, .offset-by-one-half#summary, .offset-by-one-half#video,
+  .offset-by-one-half.column,
   .offset-by-one-half.columns,
   #screenshots img.offset-by-one-half {
     margin-left: 52%; } }
@@ -879,7 +879,7 @@ body {
   background-color: #0964eb;
   color: white;
   text-align: center;
-  font-family: "Roboto", "Adobe Blank", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Roboto Slab", "Adobe Blank", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 #summary p {
   margin: 0; }
@@ -947,7 +947,7 @@ ul {
   height: 51px;
   padding-bottom: 13px; }
 
-@media (max-width: 920px) {
+@media (max-width: 445px) {
   #amazon {
     width: 174px;
     height: auto;
