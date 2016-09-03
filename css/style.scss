@@ -35,7 +35,6 @@ header{
 
 h1 img {
 	width:82%;
-	image-rendering: -moz-crisp-edges;
 }
 
 ul {
@@ -89,10 +88,13 @@ ul {
 	}
 }
 
-#screenshots img {
+#screenshots a{
 	@extend .three;
 	@extend .columns;
-	margin-bottom: 8px;
+}
+
+#screenshots img{
+	@extend .u-max-full-width;
 }
 
 #google_play {

@@ -393,7 +393,7 @@ th {
 
 .column,
 .columns,
-#screenshots img {
+#screenshots a {
   width: 100%;
   float: left;
   box-sizing: border-box; }
@@ -410,50 +410,50 @@ th {
 
   .column,
   .columns,
-  #screenshots img {
+  #screenshots a {
     margin-left: 4%; }
 
   .column:first-child,
   .columns:first-child,
-  #screenshots img:first-child {
+  #screenshots a:first-child {
     margin-left: 0; }
 
   .one.column,
   .one.columns,
-  #screenshots img.one {
+  #screenshots a.one {
     width: 4.66666666667%; }
 
-  .two.columns, #screenshots img.two {
+  .two.columns, #screenshots a.two {
     width: 13.3333333333%; }
 
-  .three.columns, #screenshots img {
+  .three.columns, #screenshots a {
     width: 22%; }
 
-  .four.columns, #screenshots img.four {
+  .four.columns, #screenshots a.four {
     width: 30.6666666667%; }
 
-  .five.columns, #screenshots img.five {
+  .five.columns, #screenshots a.five {
     width: 39.3333333333%; }
 
-  .six.columns, #screenshots img.six {
+  .six.columns, #screenshots a.six {
     width: 48%; }
 
-  .seven.columns, #screenshots img.seven {
+  .seven.columns, #screenshots a.seven {
     width: 56.6666666667%; }
 
-  .eight.columns, #screenshots img.eight {
+  .eight.columns, #screenshots a.eight {
     width: 65.3333333333%; }
 
-  .nine.columns, #screenshots img.nine {
+  .nine.columns, #screenshots a.nine {
     width: 74.0%; }
 
-  .ten.columns, #screenshots img.ten {
+  .ten.columns, #screenshots a.ten {
     width: 82.6666666667%; }
 
-  .eleven.columns, #screenshots img.eleven {
+  .eleven.columns, #screenshots a.eleven {
     width: 91.3333333333%; }
 
-  .twelve.columns, #screenshots img.twelve {
+  .twelve.columns, #screenshots a.twelve {
     width: 100%;
     margin-left: 0; }
 
@@ -469,72 +469,72 @@ th {
   /* Offsets */
   .offset-by-one.column,
   .offset-by-one.columns,
-  #screenshots img.offset-by-one {
+  #screenshots a.offset-by-one {
     margin-left: 8.66666666667%; }
 
   .offset-by-two.column,
   .offset-by-two.columns,
-  #screenshots img.offset-by-two {
+  #screenshots a.offset-by-two {
     margin-left: 17.3333333333%; }
 
   .offset-by-three.column,
   .offset-by-three.columns,
-  #screenshots img.offset-by-three {
+  #screenshots a.offset-by-three {
     margin-left: 26%; }
 
   .offset-by-four.column,
   .offset-by-four.columns,
-  #screenshots img.offset-by-four {
+  #screenshots a.offset-by-four {
     margin-left: 34.6666666667%; }
 
   .offset-by-five.column,
   .offset-by-five.columns,
-  #screenshots img.offset-by-five {
+  #screenshots a.offset-by-five {
     margin-left: 43.3333333333%; }
 
   .offset-by-six.column,
   .offset-by-six.columns,
-  #screenshots img.offset-by-six {
+  #screenshots a.offset-by-six {
     margin-left: 52%; }
 
   .offset-by-seven.column,
   .offset-by-seven.columns,
-  #screenshots img.offset-by-seven {
+  #screenshots a.offset-by-seven {
     margin-left: 60.6666666667%; }
 
   .offset-by-eight.column,
   .offset-by-eight.columns,
-  #screenshots img.offset-by-eight {
+  #screenshots a.offset-by-eight {
     margin-left: 69.3333333333%; }
 
   .offset-by-nine.column,
   .offset-by-nine.columns,
-  #screenshots img.offset-by-nine {
+  #screenshots a.offset-by-nine {
     margin-left: 78.0%; }
 
   .offset-by-ten.column,
   .offset-by-ten.columns,
-  #screenshots img.offset-by-ten {
+  #screenshots a.offset-by-ten {
     margin-left: 86.6666666667%; }
 
   .offset-by-eleven.column,
   .offset-by-eleven.columns,
-  #screenshots img.offset-by-eleven {
+  #screenshots a.offset-by-eleven {
     margin-left: 95.3333333333%; }
 
   .offset-by-one-third.column,
   .offset-by-one-third.columns,
-  #screenshots img.offset-by-one-third {
+  #screenshots a.offset-by-one-third {
     margin-left: 34.6666666667%; }
 
   .offset-by-two-thirds.column,
   .offset-by-two-thirds.columns,
-  #screenshots img.offset-by-two-thirds {
+  #screenshots a.offset-by-two-thirds {
     margin-left: 69.3333333333%; }
 
   .offset-by-one-half.column,
   .offset-by-one-half.columns,
-  #screenshots img.offset-by-one-half {
+  #screenshots a.offset-by-one-half {
     margin-left: 52%; } }
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -833,7 +833,7 @@ form {
   width: 100%;
   box-sizing: border-box; }
 
-.u-max-full-width, #video iframe {
+.u-max-full-width, #video iframe, #screenshots img {
   max-width: 100%;
   box-sizing: border-box; }
 
@@ -900,8 +900,7 @@ header {
   margin-bottom: 2rem; }
 
 h1 img {
-  width: 82%;
-  image-rendering: -moz-crisp-edges; }
+  width: 82%; }
 
 ul {
   list-style-type: none; }
@@ -937,9 +936,6 @@ ul {
   h1 img {
     width: 48%;
     max-width: 300px; } }
-#screenshots img {
-  margin-bottom: 8px; }
-
 #google_play {
   width: 200px; }
 
