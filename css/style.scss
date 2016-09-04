@@ -45,16 +45,21 @@ ul {
 
 
 @media (min-width: 550px){
+	li:first-child{
+		margin-left: 0;
+	}
 	li{
 		display: inline-block;
 		vertical-align: top;
 		width: 48%;
+		margin-left: 3%;
 	}
 }
 
 @media (min-width: 1000px){
 	li{
 		width: 30%;
+		margin-left: 3%;
 	}
 }
 
