@@ -20,6 +20,7 @@ body {
 
 h1{
 	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
 }
 
 h2{
@@ -74,7 +75,11 @@ ul {
 
 .section {
 		@extend .row;
-		margin-bottom:8px;
+		margin-bottom:1rem;
+}
+
+#about, #features {
+	margin-top: 3rem;
 }
 
 @media (min-width: 550px) {
@@ -84,7 +89,7 @@ ul {
 	}
 	h1 img {
 		width:48%;
-		max-width: 300px;
+		max-width: 340px;
 	}
 }
 
@@ -115,5 +120,5 @@ ul {
 }
 
 .icon {
-	width:24px;
+	height:24px;
 }

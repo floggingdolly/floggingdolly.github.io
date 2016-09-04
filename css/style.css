@@ -888,7 +888,8 @@ body {
   margin: 0; }
 
 h1 {
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem; }
 
 h2 {
   margin-bottom: 0;
@@ -926,7 +927,10 @@ ul {
   height: 100%; }
 
 .section {
-  margin-bottom: 8px; }
+  margin-bottom: 1rem; }
+
+#about, #features {
+  margin-top: 3rem; }
 
 @media (min-width: 550px) {
   section:first-of-type {
@@ -935,7 +939,7 @@ ul {
 
   h1 img {
     width: 48%;
-    max-width: 300px; } }
+    max-width: 340px; } }
 #google_play {
   width: 200px; }
 
@@ -949,6 +953,6 @@ ul {
     height: auto;
     padding-bottom: 8px; } }
 .icon {
-  width: 24px; }
+  height: 24px; }
 
 /*# sourceMappingURL=style.css.map */
