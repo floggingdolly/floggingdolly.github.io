@@ -5,10 +5,17 @@ body {
 	@extend .container;
 	background-color:#0964eb;
 	color:white;
-	text-align: center;
+	text-align:center;
 	font-family: "Roboto Slab", "Adobe Blank", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a {
+	color:white;
+}
+
+a:visited{
+	color:LightGray;
+}
 
 #summary p{
 	margin:0;
@@ -42,13 +49,16 @@ ul {
 	list-style-type: none;
 }
 
-
+#footer li {
+	display: inline;
+	margin: 1rem;
+}
 
 @media (min-width: 550px){
 	li:first-child{
 		margin-left: 0;
 	}
-	li{
+	#features li{
 		display: inline-block;
 		vertical-align: top;
 		width: 48%;
@@ -57,7 +67,7 @@ ul {
 }
 
 @media (min-width: 1000px){
-	li{
+	#features li{
 		width: 30%;
 		margin-left: 3%;
 	}
