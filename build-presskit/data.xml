@@ -34,12 +34,8 @@
 
 	<histories>
 		<history>
-			<header>Description</header>
-			<text></text>
-		</history>
-		<history>
-			<header>History</header>
-			<text></text>
+			<text>Flogging Dolly is Ivan Savu's pet project. Development began back in 2014. After four years of sporadic development,
+			Flogging Dolly is finally ready.</text>
 		</history>
 	</histories>
 
