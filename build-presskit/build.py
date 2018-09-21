@@ -9,6 +9,10 @@ def main():
     screenshots = glob("../images/screenshots/highres/*.png")
     additional_files = glob("../press/images/*.*")
     print("Copying files")
+
+    if not path.exists("images"):
+        os.mkdir("images")
+
     for f in screenshots + additional_files:
         copy(f, "images/")
 
